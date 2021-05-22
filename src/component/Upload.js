@@ -33,7 +33,7 @@ const Upload = () => {
         <div
             className="bg-yellow-100 w-full h-96 overflow-hidden mb-5 rounded-xl mx-auto">
           {image.preview &&
-          <img src={image.preview} alt="upload image"
+          <img src={image.preview} alt="upload"
                className="w-full h-96  object-contain"/>}
         </div>
 
